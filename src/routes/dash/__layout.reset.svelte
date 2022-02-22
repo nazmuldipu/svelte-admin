@@ -1,6 +1,7 @@
 <script>
     //Imports;
     import DashNavbar from "$lib/header/dash-navbar.svelte";
+    import DashSideNavbar from "$lib/header/dash-side-navbar.svelte";
 
     //Globals
     let toogleNav = true;
@@ -17,12 +18,15 @@
 >
     Sidenav
 </div>
+<DashSideNavbar {toogleNav} />
 <div
     class:md:ml-64={toogleNav === true}
     class="flex flex-col min-h-screen transition-all"
 >
     <DashNavbar {toogleNav} on:toogleNav={handleToogle} />
-    <slot />
+    <div class="bg-gray-100 p-5">
+        <slot />
+    </div>
 </div>
 <div
     class:hidden={toogleNav !== true}
