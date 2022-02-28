@@ -56,6 +56,26 @@
                 Thing = (await import("svelte-icons/fa/FaSignOutAlt.svelte"))
                     .default;
                 break;
+            case "FaHome":
+                Thing = (await import("svelte-icons/fa/FaHome.svelte"))
+                    .default;
+                break;
+                case "FaRegAddressCard":
+                Thing = (await import("svelte-icons/fa/FaRegAddressCard.svelte"))
+                    .default;
+                break;
+            case "FaRegCheckSquare":
+                Thing = (await import("svelte-icons/fa/FaRegCheckSquare.svelte"))
+                    .default;
+                break;
+            case "FaRegBookmark":
+                Thing = (await import("svelte-icons/fa/FaRegBookmark.svelte"))
+                    .default;
+                break;
+            case "FaExclamationCircle":
+                Thing = (await import("svelte-icons/fa/FaExclamationCircle.svelte"))
+                    .default;
+                break;
             default:
                 Thing = (await import("svelte-icons/fa/FaCog.svelte")).default;
                 break;

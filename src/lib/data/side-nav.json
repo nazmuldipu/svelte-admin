@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Favorites",
+        "icon": "FaUser",
+        "list": [
+            { "title": "Dashboard", "link": "/dash", "icon": "FaHome" }
+        ]
+    },
+    {
+        "title": "UI Kit",
+        "list": [
+            {
+                "title": "Form Layout",
+                "link": "/dash/formlayout",
+                "icon": "FaRegAddressCard"
+            },
+            { "title": "Input", "link": "/dash/input", "icon": "FaRegCheckSquare" },
+            {
+                "title": "Float Label",
+                "link": "/dash/floatlabel",
+                "icon": "FaRegBookmark"
+            },
+            {
+                "title": "Invalid State",
+                "link": "/dash/invalidstate",
+                "icon": "FaExclamationCircle"
+            }
+        ]
+    }
+]
