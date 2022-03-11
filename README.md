@@ -38,3 +38,85 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+# Tests
+## Test Modules
+```js 
+
+debug: [Function: debug],
+rerender: [Function: rerender],
+    //const {results} = render(YourComponent, {ComponentOptions}, {RenderOptions})
+    // ComponentOptions => These are the options you pass when instantiating your Svelte 
+    // {
+    //  target: MyTarget,
+    //  props: {myProp: 'value'},
+    // }
+
+unmount: [Function: unmount],
+
+$$ ByLabelText
+queryByLabelText: [Function: bound ],
+queryAllByLabelText: [Function: bound ],
+getByLabelText: [Function: bound ],
+getAllByLabelText: [Function: bound ],
+findByLabelText: [Function: bound ],
+findAllByLabelText: [Function: bound ],
+
+// getByLabelText(
+//   // If you're using `screen`, then skip the container argument:
+//   container: HTMLElement,
+//   text: TextMatch,
+//   options?: {
+//     selector?: string = '*',
+//     exact?: boolean = true,
+//     normalizer?: NormalizerFn,
+//   }): HTMLElement
+
+queryByPlaceholderText: [Function: bound ],
+queryAllByPlaceholderText: [Function: bound ],
+queryByText: [Function: bound ],
+queryAllByText: [Function: bound ],
+queryByDisplayValue: [Function: bound ],
+queryAllByDisplayValue: [Function: bound ],
+queryByAltText: [Function: bound ],
+queryAllByAltText: [Function: bound ],
+queryByTitle: [Function: bound ],
+queryAllByTitle: [Function: bound ],
+queryByRole: [Function: bound ],
+queryAllByRole: [Function: bound ],
+queryByTestId: [Function: bound ],
+queryAllByTestId: [Function: bound ],
+
+
+getByPlaceholderText: [Function: bound ],
+getAllByPlaceholderText: [Function: bound ],
+getByText: [Function: bound ],
+getAllByText: [Function: bound ],
+getByDisplayValue: [Function: bound ],
+getAllByDisplayValue: [Function: bound ],
+getByAltText: [Function: bound ],
+getAllByAltText: [Function: bound ],
+getByTitle: [Function: bound ],
+getAllByTitle: [Function: bound ],
+getAllByRole: [Function: bound ],
+getByRole: [Function: bound ],
+getByTestId: [Function: bound ],
+getAllByTestId: [Function: bound ],
+
+
+findAllByPlaceholderText: [Function: bound ],
+findByPlaceholderText: [Function: bound ],
+findAllByText: [Function: bound ],
+findByText: [Function: bound ],
+findAllByDisplayValue: [Function: bound ],
+findByDisplayValue: [Function: bound ],
+findAllByAltText: [Function: bound ],
+findByAltText: [Function: bound ],
+findAllByTitle: [Function: bound ],
+findByTitle: [Function: bound ],
+findAllByRole: [Function: bound ],
+findByRole: [Function: bound ],
+findAllByTestId: [Function: bound ],
+findByTestId: [Function: bound ]
+```
+

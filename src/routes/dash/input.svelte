@@ -11,7 +11,7 @@
             bind:value={inputText}
             showLabel={true}
             label="InputText"
-            placeholder="Custom placeholder"
+            name="input-text"
             disabled={false}
         />
     </div>
